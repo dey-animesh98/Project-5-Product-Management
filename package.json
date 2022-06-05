@@ -1,7 +1,7 @@
 {
-  "name": "project-5-product-management",
+  "name": "project-productsmanagement-19",
   "version": "1.0.0",
-  "description": "Product Management of shopping cart.5th project of FunctionUp. Four member is our group.",
+  "description": "Product Management of shopping cart.5th project of FunctionUp. Four member is our group",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,21 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dey-animesh98/Project-5-Product-Management.git"
+    "url": "git+https://github.com/saurabh2160/project-productsManagement-19.git"
   },
   "author": "Uranium/Group-19",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dey-animesh98/Project-5-Product-Management/issues"
+    "url": "https://github.com/saurabh2160/project-productsManagement-19/issues"
   },
-  "homepage": "https://github.com/dey-animesh98/Project-5-Product-Management#readme",
+  "homepage": "https://github.com/saurabh2160/project-productsManagement-19#readme",
   "dependencies": {
     "aws-sdk": "^2.1141.0",
     "bcrypt": "^5.0.1",
     "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.3.4",
+    "mongoose": "^6.3.5",
     "multer": "^1.4.4"
   },
   "devDependencies": {
