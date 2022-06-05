@@ -38,8 +38,6 @@ const createProduct = async (req, res) => {
             return res.status(400).send({ status: false, message: "title invalid" });
         if (isEmpty(description))
             return res.status(400).send({ status: false, message: "description required" });
-        // if (!stringCheck(description))
-        //     return res.status(400).send({ status: false, message: "description invalid" });
         if (isEmpty(price))
             return res.status(400).send({ status: false, message: "price required" });
         if (price == 0)
