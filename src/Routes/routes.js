@@ -7,6 +7,11 @@ const productController = require('../Controllers/productController')
 const cartController = require('../Controllers/cartController')
 const orderController = require('../Controllers/orderController')
 
+router.all('/*', (req,res)=>{
+    res.status(404).send({status:false, messege:"URL not found"})
+})
+
+
 //user routes
 router.post('/register', userController.createUser)
 router.post('/login', userController.loginUser)
